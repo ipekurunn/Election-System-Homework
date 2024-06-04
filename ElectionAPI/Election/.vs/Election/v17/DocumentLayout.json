@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\services\\electionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\services\\electionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\controllers\\electioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\controllers\\electioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\concrete\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\concrete\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\concrete\\samplestrategies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\concrete\\samplestrategies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\datas\\totaltsv.tsv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\datas\\totaltsv.tsv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\datas\\jsondatas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\datas\\jsondatas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\datas\\othercitiesjson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\datas\\othercitiesjson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\datas\\firstcitytsv.tsv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\datas\\firstcitytsv.tsv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\dtos\\generatevoterrequestmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\dtos\\generatevoterrequestmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\entity\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\entity\\voter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|c:\\users\\emre\\source\\repos\\election\\electionapi\\election\\election\\abstractions\\ielectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678376C-5DD8-4901-B2FF-DACA52FB7E1B}|Election\\Election.csproj|solutionrelative:election\\abstractions\\ielectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SampleStrategies.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Concrete\\SampleStrategies.cs",
+              "RelativeDocumentMoniker": "Election\\Concrete\\SampleStrategies.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Concrete\\SampleStrategies.cs",
+              "RelativeToolTip": "Election\\Concrete\\SampleStrategies.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABAAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T10:56:04.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Election\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\appsettings.Development.json",
+              "RelativeToolTip": "Election\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-25T21:18:21.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TotalTSV.tsv",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\TotalTSV.tsv",
+              "RelativeDocumentMoniker": "Election\\Datas\\TotalTSV.tsv",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\TotalTSV.tsv",
+              "RelativeToolTip": "Election\\Datas\\TotalTSV.tsv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8OAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T21:17:06.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JsonDatas.json",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\JsonDatas.json",
+              "RelativeDocumentMoniker": "Election\\Datas\\JsonDatas.json",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\JsonDatas.json",
+              "RelativeToolTip": "Election\\Datas\\JsonDatas.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHFiAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-25T21:16:59.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OtherCitiesJSON.json",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\OtherCitiesJSON.json",
+              "RelativeDocumentMoniker": "Election\\Datas\\OtherCitiesJSON.json",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\OtherCitiesJSON.json",
+              "RelativeToolTip": "Election\\Datas\\OtherCitiesJSON.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKFBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-25T21:16:50.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FirstCityTSV.tsv",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\FirstCityTSV.tsv",
+              "RelativeDocumentMoniker": "Election\\Datas\\FirstCityTSV.tsv",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Datas\\FirstCityTSV.tsv",
+              "RelativeToolTip": "Election\\Datas\\FirstCityTSV.tsv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK8EAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T21:16:39.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Program.cs",
+              "RelativeDocumentMoniker": "Election\\Program.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Program.cs",
+              "RelativeToolTip": "Election\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:53:47.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IElectionService.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Abstractions\\IElectionService.cs",
+              "RelativeDocumentMoniker": "Election\\Abstractions\\IElectionService.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Abstractions\\IElectionService.cs",
+              "RelativeToolTip": "Election\\Abstractions\\IElectionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:06:34.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GenerateVoterRequestMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\DTOs\\GenerateVoterRequestMessage.cs",
+              "RelativeDocumentMoniker": "Election\\DTOs\\GenerateVoterRequestMessage.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\DTOs\\GenerateVoterRequestMessage.cs",
+              "RelativeToolTip": "Election\\DTOs\\GenerateVoterRequestMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T21:05:22.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ElectionController.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Controllers\\ElectionController.cs",
+              "RelativeDocumentMoniker": "Election\\Controllers\\ElectionController.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Controllers\\ElectionController.cs",
+              "RelativeToolTip": "Election\\Controllers\\ElectionController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:52:30.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ElectionServices.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Services\\ElectionServices.cs",
+              "RelativeDocumentMoniker": "Election\\Services\\ElectionServices.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Services\\ElectionServices.cs",
+              "RelativeToolTip": "Election\\Services\\ElectionServices.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwBoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:37:10.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Concrete\\Repository.cs",
+              "RelativeDocumentMoniker": "Election\\Concrete\\Repository.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Concrete\\Repository.cs",
+              "RelativeToolTip": "Election\\Concrete\\Repository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:14:15.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Abstractions\\IRepository.cs",
+              "RelativeDocumentMoniker": "Election\\Abstractions\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Abstractions\\IRepository.cs",
+              "RelativeToolTip": "Election\\Abstractions\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:10:09.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Voter.cs",
+              "DocumentMoniker": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Entity\\Voter.cs",
+              "RelativeDocumentMoniker": "Election\\Entity\\Voter.cs",
+              "ToolTip": "C:\\Users\\Emre\\source\\repos\\Election\\ElectionAPI\\Election\\Election\\Entity\\Voter.cs",
+              "RelativeToolTip": "Election\\Entity\\Voter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:08:18.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

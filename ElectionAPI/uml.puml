@@ -1,0 +1,135 @@
+@startuml
+
+interface IRepository {
+    +Task AddVoterToJson<T>(IEnumerable<T> entity, string filePath)
+    +Task AddVoterToTSV<T>(IEnumerable<T> entities, string filePath) where T : Voter
+    +Task DeleteVoterFromJson(string filePath)
+    +Task DeleteVoterFromTSV(string filePath)
+    +Task<IEnumerable<T>> ReadVotersFromJson<T>(string filePath)
+    +Task<List<T>> ReadVotersFromTSV<T>(string filePath) where T : Voter
+}
+
+interface ISamplingStrategy {
+    +IEnumerable<Voter> Sample(IEnumerable<Voter> population, int parameter)
+}
+
+class Voter {
+    +string Name { get; init; }
+    +int Age { get; init; }
+    +string City { get; init; }
+    +string Vote { get; init; }
+    +Gender VoterGender { get; init; }
+
+    +Voter(string name, int age, string city, string vote, Gender voterGender)
+}
+
+enum Gender {
+    Male
+    Female
+}
+
+class FileSettings {
+    +string JsonFilePath { get; set; }
+    +string FirstCityTSVPath { get; set; }
+    +string TotalTSV { get; set; }
+    +string OtherCitiesJSON { get; set; }
+}
+
+class GenerateVoterRequestMessage {
+    +int Population { get; set; }
+    +int SampleSize { get; set; }
+    +int SampleInterval { get; set; }
+    +int SampleSizePerStratum { get; set; }
+    +string StratumType { get; set; }
+}
+
+class GraphResultMessageDTO {
+    +List<Voter> SimpleSampleData { get; set; }
+    +List<Voter> SystematicSampleData { get; set; }
+    +List<Voter> StratifiedSampleData { get; set; }
+    +string CityName { get; set; }
+}
+
+class ResponseDTO<T> {
+    +T Data { get; private set; }
+    +int StatusCode { get; private set; }
+    +bool IsSuccessful { get; private set; }
+    +string ErrorMessage { get; private set; }
+
+    +static ResponseDTO<T> Success(T data, int statusCode)
+    +static ResponseDTO<T> Success(int statusCode)
+    +static ResponseDTO<T> Fail(string errorMessage, int statusCode)
+}
+
+class Repository implements IRepository {
+    +Task AddVoterToJson<T>(IEnumerable<T> entity, string filePath)
+    +Task AddVoterToTSV<T>(IEnumerable<T> entities, string filePath) where T : Voter
+    +Task DeleteVoterFromJson(string filePath)
+    +Task DeleteVoterFromTSV(string filePath)
+    +Task<IEnumerable<T>> ReadVotersFromJson<T>(string filePath)
+    +Task<List<T>> ReadVotersFromTSV<T>(string filePath) where T : Voter
+}
+
+class SimpleRandomSampleStrategy implements ISamplingStrategy {
+    +IEnumerable<Voter> Sample(IEnumerable<Voter> population, int sampleSize)
+}
+
+class SystematicSampleStrategy implements ISamplingStrategy {
+    +IEnumerable<Voter> Sample(IEnumerable<Voter> population, int sampleInterval)
+}
+
+class StratifiedSampleStrategy implements ISamplingStrategy {
+    -Func<Voter, object> _stratifier
+
+    +StratifiedSampleStrategy(Func<Voter, object> stratifier)
+    +IEnumerable<Voter> Sample(IEnumerable<Voter> population, int sampleSizePerStratum)
+}
+
+class SamplingContext {
+    -ISamplingStrategy _strategy
+
+    +void SetStrategy(ISamplingStrategy strategy)
+    +IEnumerable<Voter> ExecuteStrategy(IEnumerable<Voter> population, int parameter)
+}
+
+class CustomBaseController {
+    +IActionResult CreateActionResultInstance<T>(ResponseDTO<T> response)
+}
+
+class ElectionController extends CustomBaseController {
+    -IElectionService _electionServices
+
+    +ElectionController(IElectionService electionServices)
+    +Task<IActionResult> GenerateCityDatas(GenerateVoterRequestMessage request)
+}
+
+class ElectionServices implements IElectionService {
+    -IRepository _repository
+    -FileSettings _fileSettings
+
+    +ElectionServices(IRepository repository, IOptions<FileSettings> fileSettings)
+    +Task<List<GraphResultMessageDTO>> GenerateVotersAsync(GenerateVoterRequestMessage request)
+    -Task SetStratigies(GraphResultMessageDTO message, List<Voter> sampleList, int sampleSize, int sampleInterval, int sampleSizePerStratum, string stratumType)
+    -Task CleadDatas()
+    -Task<List<Voter>> SetDatas(List<Voter> allDatas)
+    -IEnumerable<Voter> GenerateRandomVoters(int population)
+    -Task<List<Voter>> ReadFileFromJson(string filePath)
+    -Task<List<Voter>> ReadFileFromTSV(string filePath)
+}
+
+interface IElectionService{
+    Task<List<GraphResultMessageDTO>> GenerateVotersAsync(GenerateVoterRequestMessage request)
+}
+
+ElectionServices --> IRepository
+ElectionServices --> FileSettings
+ElectionServices --> GenerateVoterRequestMessage
+ElectionServices --> GraphResultMessageDTO
+ElectionServices --> Voter
+
+ElectionController --> IElectionService
+CustomBaseController --> ResponseDTO
+
+SamplingContext --> ISamplingStrategy
+
+@enduml

@@ -1,0 +1,21 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  .chart-container {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 1%;
+  }
+  
+  ngx-charts-pie-chart {
+    width: 100%;
+    height: 300px;
+  }
+  

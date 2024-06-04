@@ -1,0 +1,64 @@
+<div class="container">
+    <h2>Election Infos</h2>
+    <form [formGroup]="form" (ngSubmit)="onSearch()">
+      <div class="form-group">
+        <label for="population">Population:</label>
+        <input type="number" id="population" formControlName="population" class="form-control">
+        <div *ngIf="form.get('population')?.invalid && form.get('population')?.touched" class="text-danger">
+          Please enter a valid Population value greater than 0.
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="sampleInterval">Sample Interval:</label>
+        <input type="number" id="sampleInterval" formControlName="sampleInterval" class="form-control">
+        <div *ngIf="form.get('sampleInterval')?.invalid && form.get('sampleInterval')?.touched" class="text-danger">
+          Please enter a valid Sample Interval value greater than 0.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="sampleSize">Sample Size:</label>
+        <input type="number" id="sampleSize" formControlName="sampleSize" class="form-control">
+        <div *ngIf="form.get('sampleSize')?.invalid && form.get('sampleSize')?.touched" class="text-danger">
+          Please enter a valid Sample Size value greater than 0.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="sampleSizePerStratum">Sample Size Per Stratum:</label>
+        <input type="number" id="sampleSizePerStratum" formControlName="sampleSizePerStratum" class="form-control">
+        <div *ngIf="form.get('sampleSizePerStratum')?.invalid && form.get('sampleSizePerStratum')?.touched" class="text-danger">
+          Please enter a valid Sample Size Per Stratum value greater than 0.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="stratumType">Stratum Type:</label>
+        <select id="stratumType" formControlName="stratumType" class="form-control">
+          <option value="">Select a Stratum Type</option>
+          <option value="Age">Age</option>
+          <option value="Gender">Gender</option>
+        </select>
+        <div *ngIf="form.get('stratumType')?.invalid && form.get('stratumType')?.touched" class="text-danger">
+          Please select a Stratum Type.
+        </div>
+      </div>
+  
+      <button class="btn btn-outline-secondary" type="submit" [disabled]="form.invalid" >Submit</button>
+
+    </form>
+  </div>
+  <div *ngFor="let chartData of cityChartsData" class="chart-container">
+    <h3>{{ chartData.cityName }} - {{ chartData.sampleType }}</h3>
+    <ngx-charts-pie-chart
+      [results]="chartData.series"
+      [legend]="true"
+      [labels]="true"
+      [doughnut]="false">
+    </ngx-charts-pie-chart>
+  </div>
+  
+  
+  
+
